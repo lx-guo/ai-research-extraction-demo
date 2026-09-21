@@ -1,0 +1,462 @@
+sample_id: S1
+sample_name: Commercial-PBAT
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 56.1 kDa / 71.2 kDa / 1.27
+Tg/Tm/Tc: -32.0 ℃ / 120.4 ℃ / 66.2 ℃
+Hm/Xc: 14.2 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S2
+sample_name: HEPBP
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BDO", "name_cn": "1,4-丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00638_e5431bec"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.5, "evidence_block_ids": ["T00638_e5431bec"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 66.2 kDa / 66.2 kDa / 14.2%
+Tg/Tm/Tc: -33.4 ℃ / 113.3 ℃ / 50.0 ℃
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S3
+sample_name: PBA
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 20 kDa / 31 kDa / 1.55
+Tg/Tm/Tc: -70.1 / 56.5 / 30.4
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S4
+sample_name: PBA2T8
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00304_5f0eb8ea"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.125, "evidence_block_ids": ["T00304_5f0eb8ea"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.375, "evidence_block_ids": ["T00304_5f0eb8ea"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 22 kDa / 34 kDa / 1.55
+Tg/Tm/Tc: 1.0 / 195.0 / 156.1
+Hm/Xc: 无 / 无
+yb: 38±5 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S5
+sample_name: PBA3T7
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.15, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.35, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 20 kDa / 31 kDa / 1.55
+Tg/Tm/Tc: -11.0 / 177.2 / 135.4
+Hm/Xc: 无 / 无
+yb: 133±12 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S6
+sample_name: PBA4T6
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.2, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.3, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 29 kDa / 40 kDa / 1.38
+Tg/Tm/Tc: -21.7 / 154.9 / 114.4
+Hm/Xc: 无 / 无
+yb: 207±18 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S7
+sample_name: PBA5T5
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.25, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.25, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 20 kDa / 31 kDa / 1.55
+Tg/Tm/Tc: -32.0 / 133.1 / 84.3
+Hm/Xc: 无 / 无
+yb: 822±76 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S8
+sample_name: PBA6T4
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.3, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.2, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 29 kDa / 45 kDa / 1.55
+Tg/Tm/Tc: -35.5 / 106.7 / 40.3
+Hm/Xc: 无 / 无
+yb: 1344±131 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S9
+sample_name: PBA7.5T2.5
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.375, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.125, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 20 kDa / 31 kDa / 1.55
+Tg/Tm/Tc: -44.6 / 69.4 / 2.6
+Hm/Xc: 无 / 无
+yb: 1285±124 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S10
+sample_name: PBA7T3
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.35, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.15, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 22 kDa / 30 kDa / 1.36
+Tg/Tm/Tc: -46.2 / 35.2 / -16.8
+Hm/Xc: 无 / 无
+yb: 1419±178 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S11
+sample_name: PBA8T2
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BA", "name_cn": "丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "AA", "name_cn": "己二酸", "name_en": "adipic acid (AA)", "type": "diacid", "composition_ratio": 0.4, "evidence_block_ids": ["T00272_a1806181"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.1, "evidence_block_ids": ["T00272_a1806181"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 29 kDa / 40 kDa / 1.38
+Tg/Tm/Tc: -47.1 / 44.7 / 10.1
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S13
+sample_name: PBAT+0.3%
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 52.1 kDa / 70.2 kDa / 1.35
+Tg/Tm/Tc: -32.0 / 120.4 / 66.2
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S14
+sample_name: PBAT+0.5%
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 50.8 kDa / 68.4 kDa / 1.35
+Tg/Tm/Tc: -32.1 / 118.6 / 55.2
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S15
+sample_name: PBAT+UV-0
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 50.8 kDa / 68.4 kDa / 1.35
+Tg/Tm/Tc: -33.2 / 118.8 / 55.6
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S17
+sample_name: PBAT-0
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 52.1 kDa / 70.2 kDa / 1.35
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S18
+sample_name: PBAT-0.2%
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 51.9 kDa / 69.8 kDa / 1.35
+Tg/Tm/Tc: -32.6 / 117.9 / 61.3
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S19
+sample_name: PBAT-0.3%
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 48.9 kDa / 68.3 kDa / 1.39
+Tg/Tm/Tc: -33.0 / 114.3 / 62.0
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S20
+sample_name: PBAT-0.4%
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 50.5 kDa / 70.5 kDa / 1.40
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S21
+sample_name: PBAT-0.5%
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 50.8 kDa / 68.4 kDa / 1.35
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S22
+sample_name: PBAT-1
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 66.2 kDa / 66.2 kDa / 14.2%
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 920 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S23
+sample_name: PBAT-2
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 66.2 kDa / 66.2 kDa / 14.2%
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 874 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S24
+sample_name: PBAT-3
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 66.2 kDa / 66.2 kDa / 14.2%
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 883 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S25
+sample_name: PBAT-4
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 66.2 kDa / 66.2 kDa / 14.2%
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 35 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S26
+sample_name: PBAT-5
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 66.2 kDa / 66.2 kDa / 14.2%
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 3 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S27
+sample_name: PBAT-bge
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BDO", "name_cn": "1,4-丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00440_57df560f"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.5, "evidence_block_ids": ["T00440_57df560f"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 56.1 kDa / 71.2 kDa / 1.27
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 1343 %
+MI/MFR: 无
+relaxation_time/λ/τ: 0.18 s
+rheology: {"relaxation_time": "0.18 s", "lambda": "0.18 s", "tau": "0.18 s", "source_property": "MI"}
+
+---
+
+sample_id: S28
+sample_name: PBAT-bgl
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 56.1 kDa / 71.2 kDa / 1.27
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 1091 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S29
+sample_name: PBAT-bgm
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 56.1 kDa / 71.2 kDa / 1.27
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 1213 %
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S30
+sample_name: PBAT-ege
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BDO", "name_cn": "1,4-丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00440_57df560f"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.5, "evidence_block_ids": ["T00440_57df560f"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 48.6 kDa / 67.5 kDa / 1.39
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 0.44 s
+rheology: {"relaxation_time": "0.44 s", "lambda": "0.44 s", "tau": "0.44 s", "source_property": "MI"}
+
+---
+
+sample_id: S31
+sample_name: PBAT-gle
+sample_quality_status: keep
+composition: {"monomers": [{"abbrev": "BDO", "name_cn": "1,4-丁二醇", "name_en": "1,4-butanediol (BDO)", "type": "diol", "composition_ratio": 0.5, "evidence_block_ids": ["T00440_57df560f"]}, {"abbrev": "TPA", "name_cn": "对苯二甲酸", "name_en": "terephthalic acid (TPA)", "type": "diacid", "composition_ratio": 0.5, "evidence_block_ids": ["T00440_57df560f"]}], "normalized": true, "sum_diacid": 0.5, "sum_diol": 0.5}
+recovered_from_missing: 无
+Mn/Mw/PDI: 50.8 kDa / 70.7 kDa / 1.39
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 0.23 s
+rheology: {"relaxation_time": "0.23 s", "lambda": "0.23 s", "tau": "0.23 s", "source_property": "MI"}
+
+---
+
+sample_id: S34
+sample_name: PBM
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 56.1 kDa / 71.2 kDa / 1.27
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
+
+---
+
+sample_id: S35
+sample_name: UV-0
+sample_quality_status: keep
+composition: 无
+recovered_from_missing: 无
+Mn/Mw/PDI: 66.2 kDa / 66.2 kDa / 14.2%
+Tg/Tm/Tc: 无 / 无 / 无
+Hm/Xc: 无 / 无
+yb: 无
+MI/MFR: 无
+relaxation_time/λ/τ: 无
+rheology: 无
