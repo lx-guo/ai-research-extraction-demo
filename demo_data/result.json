@@ -1,0 +1,3569 @@
+[
+  {
+    "sample_id": "S1",
+    "sample_name": "Commercial-PBAT",
+    "sample_name_norm": "COMMERCIAL-PBAT",
+    "base_polymer": "Commercial-PBAT",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "Mn": "56.1 kDa",
+    "Mw": "71.2 kDa",
+    "PDI": "1.27",
+    "Tc": "66.2 ℃",
+    "Tg": "-32.0 ℃",
+    "Tm": "120.4 ℃",
+    "Hm": "14.2",
+    "aging_rate": "21天加速紫外老化",
+    "old": {
+      "aging_rate": "21天加速紫外老化"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "56.1 kDa",
+        "Mw": "71.2 kDa",
+        "PDI": "1.27",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "66.2 ℃",
+        "Tg": "-32.0 ℃",
+        "Tm": "120.4 ℃",
+        "evidence_block_id": [
+          "T00501_30294d61"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "60.8 kDa",
+        "Mw": "60.8 kDa",
+        "PDI": "47.6%",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00690_814bac44"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00690_814bac44"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "evidence_block_id": [
+          "P00690_814bac44"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S2",
+    "sample_name": "HEPBP",
+    "sample_name_norm": "HEPBP",
+    "base_polymer": "HEPBP",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BDO",
+          "name_cn": "1,4-丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00638_e5431bec"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00638_e5431bec"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "66.2 kDa",
+    "Mw": "66.2 kDa",
+    "PDI": "14.2%",
+    "Tc": "50.0 ℃",
+    "Tg": "-33.4 ℃",
+    "Tm": "113.3 ℃",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BDO",
+              "name_cn": "1,4-丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00638_e5431bec"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00638_e5431bec"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00638_e5431bec"
+        ]
+      },
+      "Mn": {
+        "Mn": "inherited_property",
+        "Mw": "inherited_property",
+        "PDI": "inherited_property",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "review"
+      },
+      "Tg": {
+        "Tc": "50.0 ℃",
+        "Tg": "-33.4 ℃",
+        "Tm": "113.3 ℃",
+        "evidence_block_id": [
+          "T00501_30294d61"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00638_e5431bec",
+          "P00610_b0a48ade",
+          "P00619_6a521bcc"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00638_e5431bec",
+          "P00610_b0a48ade",
+          "P00619_6a521bcc"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S3",
+    "sample_name": "PBA",
+    "sample_name_norm": "PBA",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "20 kDa",
+    "Mw": "31 kDa",
+    "PDI": "1.55",
+    "Tc": "30.4",
+    "Tg": "-70.1",
+    "Tm": "56.5",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "20 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "30.4",
+        "Tg": "-70.1",
+        "Tm": "56.5",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "31 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "T00272_a1806181",
+          "P00014_3f20864b"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181",
+          "P00014_3f20864b"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "31 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S4",
+    "sample_name": "PBA2T8",
+    "sample_name_norm": "PBA2T8",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00304_5f0eb8ea"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.125,
+          "evidence_block_ids": [
+            "T00304_5f0eb8ea"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.375,
+          "evidence_block_ids": [
+            "T00304_5f0eb8ea"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "22 kDa",
+    "Mw": "34 kDa",
+    "PDI": "1.55",
+    "Tc": "156.1",
+    "Tg": "1.0",
+    "Tm": "195.0",
+    "tensile_strength": "31.4±2.1 MPa",
+    "yield_strength": "31.4±2.5 MPa",
+    "elongation_at_break": "38±5 %",
+    "yb": "38±5 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00304_5f0eb8ea"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.125,
+              "evidence_block_ids": [
+                "T00304_5f0eb8ea"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.375,
+              "evidence_block_ids": [
+                "T00304_5f0eb8ea"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00304_5f0eb8ea"
+        ]
+      },
+      "Mn": {
+        "Mn": "22 kDa",
+        "Mw": "34 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "156.1",
+        "Tg": "1.0",
+        "Tm": "195.0",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "34 kDa",
+        "Mw": "34 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "38±5 %",
+        "evidence_block_id": [
+          "T00304_5f0eb8ea"
+        ],
+        "tensile_strength": "31.4±2.1 MPa",
+        "yield_strength": "31.4±2.5 MPa"
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00304_5f0eb8ea"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "22 kDa",
+        "Mw": "34 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S5",
+    "sample_name": "PBA3T7",
+    "sample_name_norm": "PBA3T7",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.15,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.35,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "20 kDa",
+    "Mw": "31 kDa",
+    "PDI": "1.55",
+    "Tc": "135.4",
+    "Tg": "-11.0",
+    "Tm": "177.2",
+    "tensile_strength": "22.1±1.7 MPa",
+    "yield_strength": "22.1±1.7 MPa",
+    "elongation_at_break": "133±12 %",
+    "yb": "133±12 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.15,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.35,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "20 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"      },
+      "Tg": {
+        "Tc": "135.4",
+        "Tg": "-11.0",
+        "Tm": "177.2",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "31 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "133±12 %",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "tensile_strength": "22.1±1.7 MPa",
+        "yield_strength": "22.1±1.7 MPa"
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "20 kDa",
+        "Mw": "34 kDa",
+        "PDI": "1.70",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S6",
+    "sample_name": "PBA4T6",
+    "sample_name_norm": "PBA4T6",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.2,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.3,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "29 kDa",
+    "Mw": "40 kDa",
+    "PDI": "1.38",
+    "Tc": "114.4",
+    "Tg": "-21.7",
+    "Tm": "154.9",
+    "tensile_strength": "16.0±1.2 MPa",
+    "yield_strength": "13.1±0.9 MPa",
+    "elongation_at_break": "207±18 %",
+    "yb": "207±18 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.2,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.3,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "29 kDa",
+        "Mw": "40 kDa",
+        "PDI": "1.38",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "114.4",
+        "Tg": "-21.7",
+        "Tm": "154.9",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "40 kDa",
+        "Mw": "40 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "207±18 %",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "tensile_strength": "16.0±1.2 MPa",
+        "yield_strength": "13.1±0.9 MPa"
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "29 kDa",
+        "Mw": "40 kDa",
+        "PDI": "1.38",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S7",
+    "sample_name": "PBA5T5",
+    "sample_name_norm": "PBA5T5",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.25,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.25,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "20 kDa",
+    "Mw": "31 kDa",
+    "PDI": "1.55",
+    "Tc": "84.3",
+    "Tg": "-32.0",
+    "Tm": "133.1",
+    "tensile_strength": "16.3±1.4 MPa",
+    "yield_strength": "8.2±1.1 MPa",
+    "elongation_at_break": "822±76 %",
+    "yb": "822±76 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.25,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.25,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "20 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "84.3",
+        "Tg": "-32.0",
+        "Tm": "133.1",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "31 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "822±76 %",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "tensile_strength": "16.3±1.4 MPa",
+        "yield_strength": "8.2±1.1 MPa"
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "20 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S8",
+    "sample_name": "PBA6T4",
+    "sample_name_norm": "PBA6T4",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.3,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.2,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "29 kDa",
+    "Mw": "45 kDa",
+    "PDI": "1.55",
+    "Tc": "40.3",
+    "Tg": "-35.5",
+    "Tm": "106.7",
+    "tensile_strength": "18.8±1.2 MPa",
+    "yield_strength": "4.7±0.6 MPa",
+    "elongation_at_break": "1344±131 %",
+    "yb": "1344±131 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.3,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.2,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "29 kDa",
+        "Mw": "45 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "40.3",
+        "Tg": "-35.5",
+        "Tm": "106.7",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "45 kDa",
+        "Mw": "45 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "1344±131 %",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "tensile_strength": "18.8±1.2 MPa",
+        "yield_strength": "4.7±0.6 MPa"
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "29 kDa",
+        "Mw": "45 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S9",
+    "sample_name": "PBA7.5T2.5",
+    "sample_name_norm": "PBA7.5T2.5",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.375,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.125,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "20 kDa",
+    "Mw": "31 kDa",
+    "PDI": "1.55",
+    "Tc": "2.6",
+    "Tg": "-44.6",
+    "Tm": "69.4",
+    "tensile_strength": "8.8±0.9 MPa",
+    "yield_strength": "2.9±0.1 MPa",
+    "elongation_at_break": "1285±124 %",
+    "yb": "1285±124 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.375,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.125,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "20 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "2.6",
+        "Tg": "-44.6",
+        "Tm": "69.4",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "30 kDa",
+        "Mw": "30 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "1285±124 %",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "tensile_strength": "8.8±0.9 MPa",
+        "yield_strength": "2.9±0.1 MPa"
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "20 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.55",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S10",
+    "sample_name": "PBA7T3",
+    "sample_name_norm": "PBA7T3",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.35,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.15,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "22 kDa",
+    "Mw": "30 kDa",
+    "PDI": "1.36",
+    "Tc": "-16.8",
+    "Tg": "-46.2",
+    "Tm": "35.2",
+    "tensile_strength": "16.2±1.5 MPa",
+    "yield_strength": "5.6±0.4 MPa",
+    "elongation_at_break": "1419±178 %",
+    "yb": "1419±178 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.35,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.15,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "22 kDa",
+        "Mw": "30 kDa",
+        "PDI": "1.36",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "-16.8",
+        "Tg": "-46.2",
+        "Tm": "35.2",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "31 kDa",
+        "Mw": "31 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "1419±178 %",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "tensile_strength": "16.2±1.5 MPa",
+        "yield_strength": "5.6±0.4 MPa"
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "22 kDa",
+        "Mw": "30 kDa",
+        "PDI": "1.36",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S11",
+    "sample_name": "PBA8T2",
+    "sample_name_norm": "PBA8T2",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BA",
+          "name_cn": "丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "AA",
+          "name_cn": "己二酸",
+          "name_en": "adipic acid (AA)",
+          "type": "diacid",
+          "composition_ratio": 0.4,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.1,
+          "evidence_block_ids": [
+            "T00272_a1806181"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "29 kDa",
+    "Mw": "40 kDa",
+    "PDI": "1.38",
+    "Tc": "10.1",
+    "Tg": "-47.1",
+    "Tm": "44.7",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BA",
+              "name_cn": "丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "AA",
+              "name_cn": "己二酸",
+              "name_en": "adipic acid (AA)",
+              "type": "diacid",
+              "composition_ratio": 0.4,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.1,
+              "evidence_block_ids": [
+                "T00272_a1806181"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ]
+      },
+      "Mn": {
+        "Mn": "29 kDa",
+        "Mw": "40 kDa",
+        "PDI": "1.38",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "10.1",
+        "Tg": "-47.1",
+        "Tm": "44.7",
+        "evidence_block_id": [
+          "T00346_db74e237"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "40 kDa",
+        "Mw": "40 kDa",
+        "PDI": "1.04",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00272_a1806181"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": "29 kDa",
+        "Mw": "40 kDa",
+        "PDI": "1.38",
+        "evidence_block_id": [
+          "T00330_5c926c3e"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S13",
+    "sample_name": "PBAT+0.3%",
+    "sample_name_norm": "PBAT+0.3%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "52.1 kDa",
+    "Mw": "70.2 kDa",
+    "PDI": "1.35",
+    "Tc": "66.2",
+    "Tg": "-32.0",
+    "Tm": "120.4",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "52.1 kDa",
+        "Mw": "70.2 kDa",
+        "PDI": "1.35",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "66.2",
+        "Tg": "-32.0",
+        "Tm": "120.4",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00690_814bac44"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00681_aa1bb7eb",
+          "P00586_578e9753"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "P00681_aa1bb7eb",
+          "P00586_578e9753"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S14",
+    "sample_name": "PBAT+0.5%",
+    "sample_name_norm": "PBAT+0.5%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "50.8 kDa",
+    "Mw": "68.4 kDa",
+    "PDI": "1.35",
+    "Tc": "55.2",
+    "Tg": "-32.1",
+    "Tm": "118.6",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "50.8 kDa",
+        "Mw": "68.4 kDa",
+        "PDI": "1.35",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "55.2",
+        "Tg": "-32.1",
+        "Tm": "118.6",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00690_814bac44"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00681_aa1bb7eb",
+          "P00586_578e9753"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "P00681_aa1bb7eb",
+          "P00586_578e9753"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S15",
+    "sample_name": "PBAT+UV-0",
+    "sample_name_norm": "PBAT+UV-0",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "50.8 kDa",
+    "Mw": "68.4 kDa",
+    "PDI": "1.35",
+    "Tc": "55.6",
+    "Tg": "-33.2",
+    "Tm": "118.8",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "50.8 kDa",
+        "Mw": "68.4 kDa",
+        "PDI": "1.35",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "55.6",
+        "Tg": "-33.2",
+        "Tm": "118.8",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00690_814bac44"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00687_2509728d"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "P00687_2509728d"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S17",
+    "sample_name": "PBAT-0",
+    "sample_name_norm": "PBAT-0",
+    "base_polymer": "PBAT",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "Mn": "52.1 kDa",
+    "Mw": "70.2 kDa",
+    "PDI": "1.35",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "52.1 kDa",
+        "Mw": "70.2 kDa",
+        "PDI": "1.35",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "P00535_6bbeea00"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "70.2 kDa",
+        "Mw": "70.2 kDa",
+        "PDI": "1.39",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00535_6bbeea00"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00535_6bbeea00"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "P00535_6bbeea00"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S18",
+    "sample_name": "PBAT-0.2%",
+    "sample_name_norm": "PBAT-0.2%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "51.9 kDa",
+    "Mw": "69.8 kDa",
+    "PDI": "1.35",
+    "Tc": "61.3",
+    "Tg": "-32.6",
+    "Tm": "117.9",
+    "aging_rate": "60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "51.9 kDa",
+        "Mw": "69.8 kDa",
+        "PDI": "1.35",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "61.3",
+        "Tg": "-32.6",
+        "Tm": "117.9",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "69.8 kDa",
+        "Mw": "69.8 kDa",
+        "PDI": "1.36",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00654_8991e51c",
+          "P00681_aa1bb7eb"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "evidence_block_id": [
+          "T00654_8991e51c",
+          "P00681_aa1bb7eb"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S19",
+    "sample_name": "PBAT-0.3%",
+    "sample_name_norm": "PBAT-0.3%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "48.9 kDa",
+    "Mw": "68.3 kDa",
+    "PDI": "1.39",
+    "Tc": "62.0",
+    "Tg": "-33.0",
+    "Tm": "114.3",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "48.9 kDa",
+        "Mw": "68.3 kDa",
+        "PDI": "1.39",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": "62.0",
+        "Tg": "-33.0",
+        "Tm": "114.3",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ],
+        "validation_status": "ok"
+      },
+      "Hm": {
+        "Mn": "68.3 kDa",
+        "Mw": "68.3 kDa",
+        "PDI": "1.32",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00654_8991e51c",
+          "P00687_2509728d"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00654_8991e51c",
+          "P00687_2509728d"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S20",
+    "sample_name": "PBAT-0.4%",
+    "sample_name_norm": "PBAT-0.4%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "50.5 kDa",
+    "Mw": "70.5 kDa",
+    "PDI": "1.40",
+    "aging_rate": "60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "50.5 kDa",
+        "Mw": "70.5 kDa",
+        "PDI": "1.40",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00654_8991e51c",
+          "P00681_aa1bb7eb"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "70.5 kDa",
+        "Mw": "70.5 kDa",
+        "PDI": "1.40",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00654_8991e51c",
+          "P00681_aa1bb7eb"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "evidence_block_id": [
+          "T00654_8991e51c",
+          "P00681_aa1bb7eb"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S21",
+    "sample_name": "PBAT-0.5%",
+    "sample_name_norm": "PBAT-0.5%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "50.8 kDa",
+    "Mw": "68.4 kDa",
+    "PDI": "1.35",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "50.8 kDa",
+        "Mw": "68.4 kDa",
+        "PDI": "1.35",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "68.4 kDa",
+        "Mw": "68.4 kDa",
+        "PDI": "1.38",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S22",
+    "sample_name": "PBAT-1",
+    "sample_name_norm": "PBAT-1",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "66.2 kDa",
+    "Mw": "66.2 kDa",
+    "PDI": "14.2%",
+    "tensile_strength": "14.5 MPa",
+    "elongation_at_break": "920 %",
+    "yb": "920 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "inherited_property",
+        "Mw": "inherited_property",
+        "PDI": "inherited_property",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "review"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "920 %",
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": "14.5 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S23",
+    "sample_name": "PBAT-2",
+    "sample_name_norm": "PBAT-2",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "66.2 kDa",
+    "Mw": "66.2 kDa",
+    "PDI": "14.2%",
+    "tensile_strength": "12.6 MPa",
+    "elongation_at_break": "874 %",
+    "yb": "874 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "inherited_property",
+        "Mw": "inherited_property",
+        "PDI": "inherited_property",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "review"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "874 %",
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": "12.6 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00693_fb7ca16c"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S24",
+    "sample_name": "PBAT-3",
+    "sample_name_norm": "PBAT-3",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "66.2 kDa",
+    "Mw": "66.2 kDa",
+    "PDI": "14.2%",
+    "tensile_strength": "10.1 MPa",
+    "elongation_at_break": "883 %",
+    "yb": "883 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "inherited_property",
+        "Mw": "inherited_property",
+        "PDI": "inherited_property",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "review"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00693_fb7ca16c"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "883 %",
+        "evidence_block_id": [
+          "P00693_fb7ca16c"
+        ],
+        "tensile_strength": "10.1 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00693_fb7ca16c"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00693_fb7ca16c"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S25",
+    "sample_name": "PBAT-4",
+    "sample_name_norm": "PBAT-4",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "66.2 kDa",
+    "Mw": "66.2 kDa",
+    "PDI": "14.2%",
+    "tensile_strength": "1.8 MPa",
+    "elongation_at_break": "35 %",
+    "yb": "35 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {        "Mn": "inherited_property",
+        "Mw": "inherited_property",
+        "PDI": "inherited_property",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "review"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00693_fb7ca16c"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "35 %",
+        "evidence_block_id": [
+          "P00693_fb7ca16c"
+        ],
+        "tensile_strength": "1.8 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00693_fb7ca16c"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S26",
+    "sample_name": "PBAT-5",
+    "sample_name_norm": "PBAT-5",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "66.2 kDa",
+    "Mw": "66.2 kDa",
+    "PDI": "14.2%",
+    "tensile_strength": "0.1 MPa",
+    "elongation_at_break": "3 %",
+    "yb": "3 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "inherited_property",
+        "Mw": "inherited_property",
+        "PDI": "inherited_property",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "review"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "3 %",
+        "evidence_block_id": [
+          "P00692_4cc30544"
+        ],
+        "tensile_strength": "0.1 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00691_f78f6ada",
+          "P00692_4cc30544"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S27",
+    "sample_name": "PBAT-bge",
+    "sample_name_norm": "PBAT-BGE",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BDO",
+          "name_cn": "1,4-丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00440_57df560f"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00440_57df560f"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "56.1 kDa",
+    "Mw": "71.2 kDa",
+    "PDI": "1.27",
+    "tensile_strength": "27.3 MPa",
+    "elongation_at_break": "1343 %",
+    "yb": "1343 %",
+    "relaxation_time": "0.18 s",
+    "rheology": {
+      "relaxation_time": "0.18 s",
+      "lambda": "0.18 s",
+      "tau": "0.18 s",
+      "source_property": "MI"
+    },
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BDO",
+              "name_cn": "1,4-丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00440_57df560f"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00440_57df560f"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00440_57df560f"
+        ]
+      },
+      "Mn": {
+        "Mn": "56.1 kDa",
+        "Mw": "71.2 kDa",
+        "PDI": "1.27",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0",
+          "P00513_9e0c877d",
+          "P00545_9880eadd"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "70.1 kDa",
+        "Mw": "70.1 kDa",
+        "PDI": "0.74",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "1343 %",
+        "evidence_block_id": [
+          "T00514_27065e19"
+        ],
+        "tensile_strength": "27.3 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00554_07d6cc61"
+        ],
+        "relaxation_time": "0.18 s"
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0",
+          "P00513_9e0c877d",
+          "P00545_9880eadd"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S28",
+    "sample_name": "PBAT-bgl",
+    "sample_name_norm": "PBAT-BGL",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "56.1 kDa",
+    "Mw": "71.2 kDa",
+    "PDI": "1.27",
+    "tensile_strength": "16.8 MPa",
+    "elongation_at_break": "1091 %",
+    "yb": "1091 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "56.1 kDa",
+        "Mw": "71.2 kDa",
+        "PDI": "1.27",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "P00513_9e0c877d"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "67.5 kDa",
+        "Mw": "67.5 kDa",
+        "PDI": "0.70",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "1091 %",
+        "evidence_block_id": [
+          "T00514_27065e19"
+        ],
+        "tensile_strength": "16.8 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00513_9e0c877d"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "P00513_9e0c877d"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S29",
+    "sample_name": "PBAT-bgm",
+    "sample_name_norm": "PBAT-BGM",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "Mn": "56.1 kDa",
+    "Mw": "71.2 kDa",
+    "PDI": "1.27",
+    "tensile_strength": "25.8 MPa",
+    "elongation_at_break": "1213 %",
+    "yb": "1213 %",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "56.1 kDa",
+        "Mw": "71.2 kDa",
+        "PDI": "1.27",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "P00513_9e0c877d"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "70.7 kDa",
+        "Mw": "70.7 kDa",
+        "PDI": "0.68",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": "1213 %",
+        "evidence_block_id": [
+          "T00514_27065e19"
+        ],
+        "tensile_strength": "25.8 MPa",
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00513_9e0c877d"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "P00513_9e0c877d"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S30",
+    "sample_name": "PBAT-ege",
+    "sample_name_norm": "PBAT-EGE",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BDO",
+          "name_cn": "1,4-丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00440_57df560f"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00440_57df560f"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "48.6 kDa",
+    "Mw": "67.5 kDa",
+    "PDI": "1.39",
+    "relaxation_time": "0.44 s",
+    "rheology": {
+      "relaxation_time": "0.44 s",
+      "lambda": "0.44 s",
+      "tau": "0.44 s",
+      "source_property": "MI"
+    },
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BDO",
+              "name_cn": "1,4-丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00440_57df560f"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00440_57df560f"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00440_57df560f"
+        ]
+      },
+      "Mn": {
+        "Mn": "48.6 kDa",
+        "Mw": "67.5 kDa",
+        "PDI": "1.39",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "67.5 kDa",
+        "Mw": "67.5 kDa",
+        "PDI": "0.70",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00554_07d6cc61"
+        ],
+        "relaxation_time": "0.44 s"
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S31",
+    "sample_name": "PBAT-gle",
+    "sample_name_norm": "PBAT-GLE",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "sample_quality_status": "keep",
+    "composition": {
+      "monomers": [
+        {
+          "abbrev": "BDO",
+          "name_cn": "1,4-丁二醇",
+          "name_en": "1,4-butanediol (BDO)",
+          "type": "diol",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00440_57df560f"
+          ]
+        },
+        {
+          "abbrev": "TPA",
+          "name_cn": "对苯二甲酸",
+          "name_en": "terephthalic acid (TPA)",
+          "type": "diacid",
+          "composition_ratio": 0.5,
+          "evidence_block_ids": [
+            "T00440_57df560f"
+          ]
+        }
+      ],
+      "normalized": true,
+      "sum_diacid": 0.5,
+      "sum_diol": 0.5
+    },
+    "Mn": "50.8 kDa",
+    "Mw": "70.7 kDa",
+    "PDI": "1.39",
+    "relaxation_time": "0.23 s",
+    "rheology": {      "relaxation_time": "0.23 s",
+      "lambda": "0.23 s",
+      "tau": "0.23 s",
+      "source_property": "MI"
+    },
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": {
+          "monomers": [
+            {
+              "abbrev": "BDO",
+              "name_cn": "1,4-丁二醇",
+              "name_en": "1,4-butanediol (BDO)",
+              "type": "diol",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00440_57df560f"
+              ]
+            },
+            {
+              "abbrev": "TPA",
+              "name_cn": "对苯二甲酸",
+              "name_en": "terephthalic acid (TPA)",
+              "type": "diacid",
+              "composition_ratio": 0.5,
+              "evidence_block_ids": [
+                "T00440_57df560f"
+              ]
+            }
+          ],
+          "normalized": true,
+          "sum_diacid": 0.5,
+          "sum_diol": 0.5
+        },
+        "validation_status": "review",
+        "evidence_block_id": [
+          "T00440_57df560f"
+        ]
+      },
+      "Mn": {
+        "Mn": "50.8 kDa",
+        "Mw": "70.7 kDa",
+        "PDI": "1.39",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0",
+          "P00545_9880eadd"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "70.7 kDa",
+        "Mw": "70.7 kDa",
+        "PDI": "0.68",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0",
+          "P00545_9880eadd"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00554_07d6cc61"
+        ],
+        "relaxation_time": "0.23 s"
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00440_57df560f",
+          "T00554_07d6cc61",
+          "P00455_a777f7e0",
+          "P00545_9880eadd"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S34",
+    "sample_name": "PBM",
+    "sample_name_norm": "PBM",
+    "base_polymer": "PBM",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "Mn": "56.1 kDa",
+    "Mw": "71.2 kDa",
+    "PDI": "1.27",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "56.1 kDa",
+        "Mw": "71.2 kDa",
+        "PDI": "1.27",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ],
+        "validation_status": "ok"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "P00147_3e6b88bd",
+          "P00148_879c8c40",
+          "P00149_8b63f5b6",
+          "P00150_a06fcb8c",
+          "P00151_623a71d8",
+          "P00152_0082d6a9",
+          "P00154_2a1e801d",
+          "P00155_653d0453",
+          "P00156_1e379a7a",
+          "P00157_1622def4",
+          "P00161_984f852c",
+          "P00165_b4261faa",
+          "P00167_fa32693d",
+          "P00172_e918c9da",
+          "P00173_b2198964",
+          "P00174_437cc953",
+          "P00179_c2699224",
+          "H00180_e19e83b3",
+          "H00186_e97a4f62",
+          "P00190_4431bd75",
+          "P00193_f682de5d",
+          "P00196_23481d7e",
+          "P00200_2bf93606",
+          "P00204_459e3b5b",
+          "P00207_7a38bbcf",
+          "H00214_cccdf9f2",
+          "P00219_6d82b897",
+          "P00222_649e88d6",
+          "P00225_ad0b771a",
+          "P00228_a2437363",
+          "H00229_6c2682e7",
+          "P00231_0de31ce9",
+          "P00235_b408a50f",
+          "P00241_8abd1c4b",
+          "P00242_e6cf6e7c",
+          "H00246_3205d77a",
+          "P00247_439575ff",
+          "P00248_4191e6e0",
+          "P00252_3e40926d",
+          "P00253_839d4bec",
+          "P00708_fb507f2c",
+          "P00807_e0651973",
+          "P00811_d2abf080",
+          "P00812_815b80a0",
+          "P00813_d02934ea",
+          "P00815_4b4a1cfd",
+          "P00816_0dc2c52b",
+          "P00817_caf1101f",
+          "P00820_cf3bc177",
+          "P00821_2a27ba52",
+          "P00824_7231dba8",
+          "P00826_5a2eeb54",
+          "P00828_1640426e",
+          "P00829_73f9c926",
+          "P00830_feaf4da6",
+          "P00831_f77dfe79",
+          "P00832_bd540270",
+          "P00834_474647d5",
+          "P00835_799919a7",
+          "P00836_f31c7045",
+          "P00837_32c365b5",
+          "P00839_86ced8ac",
+          "P00840_a353d26e",
+          "P00841_107d7898",
+          "P00842_b32b80d7",
+          "P00843_c236454d",
+          "P00844_83fafbf2",
+          "P00845_a7b5cf1e",
+          "P00846_a88312ba",
+          "P00847_e7cd2fcd",
+          "P00848_6fa2b704",
+          "P00849_79487b26",
+          "P00851_e9f4d605",
+          "P00852_e53916c0",
+          "P00854_875b1b3f",
+          "P00855_b0aaf1d3",
+          "P00856_f4fd2cd0",
+          "P00857_f22f0524",
+          "P00858_80a72fd1",
+          "P00859_be2162cd",
+          "P00860_5c418b1d",
+          "P00861_2c67019d",
+          "P00900_d8c48843"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "71.2 kDa",
+        "Mw": "71.2 kDa",
+        "PDI": "0.731",
+        "evidence_block_id": [
+          "T00482_c02a159b"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "P00147_3e6b88bd",
+          "P00148_879c8c40",
+          "P00149_8b63f5b6",
+          "P00150_a06fcb8c",
+          "P00151_623a71d8",
+          "P00152_0082d6a9",
+          "P00154_2a1e801d",
+          "P00155_653d0453",
+          "P00156_1e379a7a",
+          "P00157_1622def4",
+          "P00161_984f852c",
+          "P00165_b4261faa",
+          "P00167_fa32693d",
+          "P00172_e918c9da",
+          "P00173_b2198964",
+          "P00174_437cc953",
+          "P00179_c2699224",
+          "H00180_e19e83b3",
+          "H00186_e97a4f62",
+          "P00190_4431bd75",
+          "P00193_f682de5d",
+          "P00196_23481d7e",
+          "P00200_2bf93606",
+          "P00204_459e3b5b",
+          "P00207_7a38bbcf",
+          "H00214_cccdf9f2",
+          "P00219_6d82b897",
+          "P00222_649e88d6",
+          "P00225_ad0b771a",
+          "P00228_a2437363",
+          "H00229_6c2682e7",
+          "P00231_0de31ce9",
+          "P00235_b408a50f",
+          "P00241_8abd1c4b",
+          "P00242_e6cf6e7c",
+          "H00246_3205d77a",
+          "P00247_439575ff",
+          "P00248_4191e6e0",
+          "P00252_3e40926d",
+          "P00253_839d4bec",
+          "P00708_fb507f2c",
+          "P00807_e0651973",
+          "P00811_d2abf080",
+          "P00812_815b80a0",
+          "P00813_d02934ea",
+          "P00815_4b4a1cfd",
+          "P00816_0dc2c52b",
+          "P00817_caf1101f",
+          "P00820_cf3bc177",
+          "P00821_2a27ba52",
+          "P00824_7231dba8",
+          "P00826_5a2eeb54",
+          "P00828_1640426e",
+          "P00829_73f9c926",
+          "P00830_feaf4da6",
+          "P00831_f77dfe79",
+          "P00832_bd540270",
+          "P00834_474647d5",
+          "P00835_799919a7",
+          "P00836_f31c7045",
+          "P00837_32c365b5",
+          "P00839_86ced8ac",
+          "P00840_a353d26e",
+          "P00841_107d7898",
+          "P00842_b32b80d7",
+          "P00843_c236454d",
+          "P00844_83fafbf2",
+          "P00845_a7b5cf1e",
+          "P00846_a88312ba",
+          "P00847_e7cd2fcd",
+          "P00848_6fa2b704",
+          "P00849_79487b26",
+          "P00851_e9f4d605",
+          "P00852_e53916c0",
+          "P00854_875b1b3f",
+          "P00855_b0aaf1d3",
+          "P00856_f4fd2cd0",
+          "P00857_f22f0524",
+          "P00858_80a72fd1",
+          "P00859_be2162cd",
+          "P00860_5c418b1d",
+          "P00861_2c67019d",
+          "P00900_d8c48843"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "P00147_3e6b88bd",
+          "P00148_879c8c40",
+          "P00149_8b63f5b6",
+          "P00150_a06fcb8c",
+          "P00151_623a71d8",
+          "P00152_0082d6a9",
+          "P00154_2a1e801d",
+          "P00155_653d0453",
+          "P00156_1e379a7a",
+          "P00157_1622def4",
+          "P00161_984f852c",
+          "P00165_b4261faa",
+          "P00167_fa32693d",
+          "P00172_e918c9da",
+          "P00173_b2198964",
+          "P00174_437cc953",
+          "P00179_c2699224",
+          "H00180_e19e83b3",
+          "H00186_e97a4f62",
+          "P00190_4431bd75",
+          "P00193_f682de5d",
+          "P00196_23481d7e",
+          "P00200_2bf93606",
+          "P00204_459e3b5b",
+          "P00207_7a38bbcf",
+          "H00214_cccdf9f2",
+          "P00219_6d82b897",
+          "P00222_649e88d6",
+          "P00225_ad0b771a",
+          "P00228_a2437363",
+          "H00229_6c2682e7",
+          "P00231_0de31ce9",
+          "P00235_b408a50f",
+          "P00241_8abd1c4b",
+          "P00242_e6cf6e7c",
+          "H00246_3205d77a",
+          "P00247_439575ff",
+          "P00248_4191e6e0",
+          "P00252_3e40926d",
+          "P00253_839d4bec",
+          "P00708_fb507f2c",
+          "P00807_e0651973",
+          "P00811_d2abf080",
+          "P00812_815b80a0",
+          "P00813_d02934ea",
+          "P00815_4b4a1cfd",
+          "P00816_0dc2c52b",
+          "P00817_caf1101f",
+          "P00820_cf3bc177",
+          "P00821_2a27ba52",
+          "P00824_7231dba8",
+          "P00826_5a2eeb54",
+          "P00828_1640426e",
+          "P00829_73f9c926",
+          "P00830_feaf4da6",
+          "P00831_f77dfe79",
+          "P00832_bd540270",
+          "P00834_474647d5",
+          "P00835_799919a7",
+          "P00836_f31c7045",
+          "P00837_32c365b5",
+          "P00839_86ced8ac",
+          "P00840_a353d26e",
+          "P00841_107d7898",
+          "P00842_b32b80d7",
+          "P00843_c236454d",
+          "P00844_83fafbf2",
+          "P00845_a7b5cf1e",
+          "P00846_a88312ba",
+          "P00847_e7cd2fcd",
+          "P00848_6fa2b704",
+          "P00849_79487b26",
+          "P00851_e9f4d605",
+          "P00852_e53916c0",
+          "P00854_875b1b3f",
+          "P00855_b0aaf1d3",
+          "P00856_f4fd2cd0",
+          "P00857_f22f0524",
+          "P00858_80a72fd1",
+          "P00859_be2162cd",
+          "P00860_5c418b1d",
+          "P00861_2c67019d",
+          "P00900_d8c48843"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "P00147_3e6b88bd",
+          "P00148_879c8c40",
+          "P00149_8b63f5b6",
+          "P00150_a06fcb8c",
+          "P00151_623a71d8",
+          "P00152_0082d6a9",
+          "P00154_2a1e801d",
+          "P00155_653d0453",
+          "P00156_1e379a7a",
+          "P00157_1622def4",
+          "P00161_984f852c",
+          "P00165_b4261faa",
+          "P00167_fa32693d",
+          "P00172_e918c9da",
+          "P00173_b2198964",
+          "P00174_437cc953",
+          "P00179_c2699224",
+          "H00180_e19e83b3",
+          "H00186_e97a4f62",
+          "P00190_4431bd75",
+          "P00193_f682de5d",
+          "P00196_23481d7e",
+          "P00200_2bf93606",
+          "P00204_459e3b5b",
+          "P00207_7a38bbcf",
+          "H00214_cccdf9f2",
+          "P00219_6d82b897",
+          "P00222_649e88d6",
+          "P00225_ad0b771a",
+          "P00228_a2437363",
+          "H00229_6c2682e7",
+          "P00231_0de31ce9",
+          "P00235_b408a50f",
+          "P00241_8abd1c4b",
+          "P00242_e6cf6e7c",
+          "H00246_3205d77a",
+          "P00247_439575ff",
+          "P00248_4191e6e0",
+          "P00252_3e40926d",
+          "P00253_839d4bec",
+          "P00708_fb507f2c",
+          "P00807_e0651973",
+          "P00811_d2abf080",
+          "P00812_815b80a0",
+          "P00813_d02934ea",
+          "P00815_4b4a1cfd",
+          "P00816_0dc2c52b",
+          "P00817_caf1101f",
+          "P00820_cf3bc177",
+          "P00821_2a27ba52",
+          "P00824_7231dba8",
+          "P00826_5a2eeb54",
+          "P00828_1640426e",
+          "P00829_73f9c926",
+          "P00830_feaf4da6",
+          "P00831_f77dfe79",
+          "P00832_bd540270",
+          "P00834_474647d5",
+          "P00835_799919a7",
+          "P00836_f31c7045",
+          "P00837_32c365b5",
+          "P00839_86ced8ac",
+          "P00840_a353d26e",
+          "P00841_107d7898",
+          "P00842_b32b80d7",
+          "P00843_c236454d",
+          "P00844_83fafbf2",
+          "P00845_a7b5cf1e",
+          "P00846_a88312ba",
+          "P00847_e7cd2fcd",
+          "P00848_6fa2b704",
+          "P00849_79487b26",
+          "P00851_e9f4d605",
+          "P00852_e53916c0",
+          "P00854_875b1b3f",
+          "P00855_b0aaf1d3",
+          "P00856_f4fd2cd0",
+          "P00857_f22f0524",
+          "P00858_80a72fd1",
+          "P00859_be2162cd",
+          "P00860_5c418b1d",
+          "P00861_2c67019d",
+          "P00900_d8c48843"
+        ]
+      }
+    }
+  },
+  {
+    "sample_id": "S35",
+    "sample_name": "UV-0",
+    "sample_name_norm": "UV-0",
+    "base_polymer": "UV-0",
+    "polymer_stage": "precursor",
+    "sample_quality_status": "keep",
+    "Mn": "66.2 kDa",
+    "Mw": "66.2 kDa",
+    "PDI": "14.2%",
+    "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h",
+    "old": {
+      "aging_rate": "通过CO2释放量评估样品的耐老化性能，样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h"
+    },
+    "properties_raw": {
+      "composition": {
+        "composition": null,
+        "validation_status": "missing",
+        "evidence_block_id": []
+      },
+      "Mn": {
+        "Mn": "n.d.",
+        "Mw": "n.d.",
+        "PDI": "n.d.",
+        "evidence_block_id": [
+          "T00654_8991e51c"
+        ],
+        "validation_status": "review"
+      },
+      "Tg": {
+        "Tc": null,
+        "Tg": null,
+        "Tm": null,
+        "evidence_block_id": [
+          "T00638_e5431bec"
+        ],
+        "validation_status": "missing"
+      },
+      "Hm": {
+        "Mn": "66.2 kDa",
+        "Mw": "66.2 kDa",
+        "PDI": "14.2%",
+        "evidence_block_id": [
+          "T00660_4decf960"
+        ]
+      },
+      "yb": {
+        "elongation_at_break": null,
+        "evidence_block_id": [
+          "T00638_e5431bec"
+        ],
+        "tensile_strength": null,
+        "yield_strength": null
+      },
+      "MI": {
+        "MI": null,
+        "evidence_block_id": [
+          "T00638_e5431bec"
+        ],
+        "relaxation_time": null
+      },
+      "old": {
+        "Mn": null,
+        "Mw": null,
+        "PDI": null,
+        "evidence_block_id": [
+          "T00638_e5431bec"
+        ]
+      }
+    }
+  }
+]
