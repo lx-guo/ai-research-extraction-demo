@@ -1,0 +1,1022 @@
+[
+  {
+    "sample_id": "S1",
+    "sample_name": "Commercial-PBAT",
+    "sample_name_norm": "COMMERCIAL-PBAT",
+    "base_polymer": "Commercial-PBAT",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "Commercial-PBAT",
+      "COMMERCIAL-PBAT"
+    ],
+    "table_match_keys": {},
+    "scope": "main",
+    "variables": {},
+    "definition_text": "将光稳定PBAT和PBAT+UV-0共混物制备成样条，分别经过21天加速紫外老化后，以及溶剂萃取联合21天加速紫外老化后，通过拉伸测试评估他们的光稳定性。",
+    "evidence_block_id": [
+      "P00690_814bac44"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S2",
+    "sample_name": "HEPBP",
+    "sample_name_norm": "HEPBP",
+    "base_polymer": "HEPBP",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "HEPBP"
+    ],
+    "table_match_keys": {
+      "entry": "2"
+    },
+    "scope": "main",
+    "variables": {},
+    "definition_text": "HEPBP is a光稳定剂 that is grafted onto PBAT to improve its UV resistance.",
+    "evidence_block_id": [
+      "T00638_e5431bec",
+      "P00610_b0a48ade",
+      "P00619_6a521bcc"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S3",
+    "sample_name": "PBA",
+    "sample_name_norm": "PBA",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA"
+    ],
+    "table_match_keys": {
+      "entry": "1"
+    },
+    "scope": "background",
+    "variables": {
+      "AA:TPA": "0:100"
+    },
+    "definition_text": "PBA (Poly(butylene adipate)) is a base polymer mentioned in the introduction section of the thesis.",
+    "evidence_block_id": [
+      "T00272_a1806181",
+      "P00014_3f20864b"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S4",
+    "sample_name": "PBA2T8",
+    "sample_name_norm": "PBA2T8",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA2T8"
+    ],
+    "table_match_keys": {
+      "entry": "1"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "20:80"
+    },
+    "definition_text": "PBA2T8样品，AA与TPA投料比为20:80",
+    "evidence_block_id": [
+      "T00304_5f0eb8ea"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S5",
+    "sample_name": "PBA3T7",
+    "sample_name_norm": "PBA3T7",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA3T7"
+    ],
+    "table_match_keys": {
+      "entry": "8"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "30:70"
+    },
+    "definition_text": "PBA3T7样品，AA与TPA投料比为30:70",
+    "evidence_block_id": [
+      "T00272_a1806181"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S6",
+    "sample_name": "PBA4T6",
+    "sample_name_norm": "PBA4T6",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA4T6"
+    ],
+    "table_match_keys": {
+      "entry": "7"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "40:60"
+    },
+    "definition_text": "PBA4T6样品，AA与TPA投料比为40:60",
+    "evidence_block_id": [
+      "T00272_a1806181"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S7",
+    "sample_name": "PBA5T5",
+    "sample_name_norm": "PBA5T5",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA5T5"
+    ],
+    "table_match_keys": {
+      "entry": "6"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "50:50"
+    },
+    "definition_text": "PBA5T5样品，AA与TPA投料比为50:50",
+    "evidence_block_id": [
+      "T00272_a1806181"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S8",
+    "sample_name": "PBA6T4",
+    "sample_name_norm": "PBA6T4",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA6T4"
+    ],
+    "table_match_keys": {
+      "entry": "5"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "60:40"
+    },
+    "definition_text": "PBA6T4样品，AA与TPA投料比为60:40",
+    "evidence_block_id": [
+      "T00272_a1806181"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S9",
+    "sample_name": "PBA7.5T2.5",
+    "sample_name_norm": "PBA7.5T2.5",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA7.5T2.5"
+    ],
+    "table_match_keys": {
+      "entry": "3"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "75:25"
+    },
+    "definition_text": "PBA7.5T2.5样品，AA与TPA投料比为75:25",
+    "evidence_block_id": [
+      "T00272_a1806181"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S10",
+    "sample_name": "PBA7T3",
+    "sample_name_norm": "PBA7T3",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA7T3"
+    ],
+    "table_match_keys": {
+      "entry": "4"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "70:30"
+    },
+    "definition_text": "PBA7T3样品，AA与TPA投料比为70:30",
+    "evidence_block_id": [
+      "T00272_a1806181"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S11",
+    "sample_name": "PBA8T2",
+    "sample_name_norm": "PBA8T2",
+    "base_polymer": "PBA",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBA8T2"
+    ],
+    "table_match_keys": {
+      "entry": "2"
+    },
+    "scope": "main",
+    "variables": {
+      "AA:TPA": "80:20"
+    },
+    "definition_text": "PBA8T2样品，AA与TPA投料比为80:20",
+    "evidence_block_id": [
+      "T00272_a1806181"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S13",
+    "sample_name": "PBAT+0.3%",
+    "sample_name_norm": "PBAT+0.3%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-0.3%",
+      "PBAT__UV-0=0.3%",
+      "PBAT+0.3%",
+      "PBAT-UV-0=0.3%"
+    ],
+    "table_match_keys": {},
+    "scope": "main",
+    "variables": {
+      "UV-0": "0.3%"
+    },
+    "definition_text": "熔融密炼法制备PBAT与UV-0共混物，具体而言，将PBAT（50 g）和UV-0在密炼机中于160 °C和30 rpm的转速条件下进行熔融共混。混合物搅5 min，直到扭矩稳定，此时取出PBAT共混物并冷却。",
+    "evidence_block_id": [
+      "P00681_aa1bb7eb",
+      "P00586_578e9753"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S14",
+    "sample_name": "PBAT+0.5%",
+    "sample_name_norm": "PBAT+0.5%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-0.5%",
+      "PBAT__UV-0=0.5%",
+      "PBAT+0.5%",
+      "PBAT-UV-0=0.5%"
+    ],
+    "table_match_keys": {},
+    "scope": "main",
+    "variables": {
+      "UV-0": "0.5%"
+    },
+    "definition_text": "熔融密炼法制备PBAT与UV-0共混物，具体而言，将PBAT（50 g）和UV-0在密炼机中于160 °C和30 rpm的转速条件下进行熔融共混。混合物搅5 min，直到扭矩稳定，此时取出PBAT共混物并冷却。",
+    "evidence_block_id": [
+      "P00681_aa1bb7eb",
+      "P00586_578e9753"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S15",
+    "sample_name": "PBAT+UV-0",
+    "sample_name_norm": "PBAT+UV-0",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT+UV-0"
+    ],
+    "table_match_keys": {},
+    "scope": "main",
+    "variables": {},
+    "definition_text": "含0.3%和0.5% UV-0负载的PBAT共混物",
+    "evidence_block_id": [
+      "P00687_2509728d"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S17",
+    "sample_name": "PBAT-0",
+    "sample_name_norm": "PBAT-0",
+    "base_polymer": "PBAT",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBAT-0"
+    ],
+    "table_match_keys": {},
+    "scope": "main",
+    "variables": {},
+    "definition_text": "分子动力学（MD）模拟用于研究线性PBAT模型（PBAT-0）和支化PBAT模型（PBAT-graft）中水分子的扩散行为。",
+    "evidence_block_id": [
+      "P00535_6bbeea00"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S18",
+    "sample_name": "PBAT-0.2%",
+    "sample_name_norm": "PBAT-0.2%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-0.2%",
+      "PBAT__UV-0=0.2%",
+      "PBAT-UV-0=0.2%"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-0.2%"
+    },
+    "scope": "main",
+    "variables": {
+      "wt%": "0.2%",
+      "UV-0": "0.2%"
+    },
+    "definition_text": "样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h，通过CO2释放量评估样品的耐老化性能",
+    "evidence_block_id": [
+      "T00654_8991e51c",
+      "P00681_aa1bb7eb"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 2,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S19",
+    "sample_name": "PBAT-0.3%",
+    "sample_name_norm": "PBAT-0.3%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-0.3%"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-0.3%"
+    },
+    "scope": "main",
+    "variables": {
+      "wt%": "0.3%"
+    },
+    "definition_text": "含相同UV-0含量的光稳定PBAT共聚物",
+    "evidence_block_id": [
+      "T00654_8991e51c",
+      "P00687_2509728d"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S20",
+    "sample_name": "PBAT-0.4%",
+    "sample_name_norm": "PBAT-0.4%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-0.4%",
+      "PBAT__UV-0=0.4%",
+      "PBAT-UV-0=0.4%"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-0.4%"
+    },
+    "scope": "main",
+    "variables": {
+      "wt%": "0.4%",
+      "UV-0": "0.4%"
+    },
+    "definition_text": "样品在60 mW/cm2功率的老化灯和60 ℃的温度下测试3 h，通过CO2释放量评估样品的耐老化性能",
+    "evidence_block_id": [
+      "T00654_8991e51c",
+      "P00681_aa1bb7eb"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 2,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S21",
+    "sample_name": "PBAT-0.5%",
+    "sample_name_norm": "PBAT-0.5%",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-0.5%"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-0.5%"
+    },
+    "scope": "main",
+    "variables": {
+      "wt%": "0.5%"
+    },
+    "definition_text": "PBAT-0.5%",
+    "evidence_block_id": [
+      "T00654_8991e51c"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S22",
+    "sample_name": "PBAT-1",
+    "sample_name_norm": "PBAT-1",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-1"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-1"
+    },
+    "scope": "main",
+    "variables": {},
+    "definition_text": "PBAT-1 is a sample of PBAT with HEPBP grafted onto it.",
+    "evidence_block_id": [
+      "T00691_f78f6ada",
+      "P00692_4cc30544"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S23",
+    "sample_name": "PBAT-2",
+    "sample_name_norm": "PBAT-2",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-2"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-2"
+    },
+    "scope": "main",
+    "variables": {},
+    "definition_text": "PBAT-2 is another sample of PBAT with HEPBP grafted onto it.",
+    "evidence_block_id": [
+      "T00691_f78f6ada",
+      "P00692_4cc30544"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S24",
+    "sample_name": "PBAT-3",
+    "sample_name_norm": "PBAT-3",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-3"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-3"
+    },
+    "scope": "main",
+    "variables": {},
+    "definition_text": "经过48小时的乙醇萃取后，加速老化后的PBAT-3和PBAT-4在拉伸性能上出现明显区别，尽管未观察到明显的表面裂纹。",
+    "evidence_block_id": [
+      "T00691_f78f6ada",
+      "P00693_fb7ca16c"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S25",
+    "sample_name": "PBAT-4",
+    "sample_name_norm": "PBAT-4",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-4"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-4"
+    },
+    "scope": "main",
+    "variables": {},
+    "definition_text": "经过48小时的乙醇萃取后，加速老化后的PBAT-3和PBAT-4在拉伸性能上出现明显区别，尽管未观察到明显的表面裂纹。",
+    "evidence_block_id": [
+      "T00691_f78f6ada",
+      "P00693_fb7ca16c"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S26",
+    "sample_name": "PBAT-5",
+    "sample_name_norm": "PBAT-5",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-5"
+    ],
+    "table_match_keys": {
+      "sample": "PBAT-5"
+    },
+    "scope": "main",
+    "variables": {},
+    "definition_text": "PBAT-5 is a sample of PBAT that was exposed to accelerated aging and showed poor mechanical properties.",
+    "evidence_block_id": [
+      "T00691_f78f6ada",
+      "P00692_4cc30544"
+    ],
+    "merged_from_batches": 2,
+    "sample_quality_reasons": [
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "parent_sample_id": "S12",
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S27",
+    "sample_name": "PBAT-bge",
+    "sample_name_norm": "PBAT-BGE",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-bge",
+      "PBAT-BGE"
+    ],
+    "table_match_keys": {
+      "entry": "2",
+      "sample": "PBAT-bge"
+    },
+    "scope": "main",
+    "variables": {
+      "crosslinker": "BGE"
+    },
+    "definition_text": "进一步研究了支化单元对PBAT流变行为的影响。鉴于所有样品具有相似的分子量，因此将流变行为的差异归因于链结构的变化是合理的。在 160℃下进行小振幅振荡剪切测试，以分析 PBAT 共聚物中聚合物链的松弛行为。",
+    "evidence_block_id": [
+      "T00440_57df560f",
+      "T00554_07d6cc61",
+      "P00455_a777f7e0",
+      "P00513_9e0c877d",
+      "P00545_9880eadd"
+    ],
+    "merged_from_batches": 5,
+    "sample_quality_reasons": [
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S28",
+    "sample_name": "PBAT-bgl",
+    "sample_name_norm": "PBAT-BGL",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-bgl",
+      "PBAT-BGL"
+    ],
+    "table_match_keys": {},
+    "scope": "main",
+    "variables": {},
+    "definition_text": "PBAT with branch groups (bgl) introduced.",
+    "evidence_block_id": [
+      "P00513_9e0c877d"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S29",
+    "sample_name": "PBAT-bgm",
+    "sample_name_norm": "PBAT-BGM",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [      "PBAT-bgm",
+      "PBAT-BGM"
+    ],
+    "table_match_keys": {},
+    "scope": "main",
+    "variables": {},
+    "definition_text": "PBAT with branch groups (bgm) introduced.",
+    "evidence_block_id": [
+      "P00513_9e0c877d"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S30",
+    "sample_name": "PBAT-ege",
+    "sample_name_norm": "PBAT-EGE",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-ege",
+      "PBAT-EGE"
+    ],
+    "table_match_keys": {
+      "entry": "3",
+      "sample": "PBAT-ege"
+    },
+    "scope": "main",
+    "variables": {
+      "crosslinker": "EGE"
+    },
+    "definition_text": "三种支化PBAT-bge、PBAT-ege和PBAT-gle，它们的Mw值为67−70 kDa",
+    "evidence_block_id": [
+      "T00440_57df560f",
+      "T00554_07d6cc61",
+      "P00455_a777f7e0"
+    ],
+    "merged_from_batches": 3,
+    "sample_quality_reasons": [
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S31",
+    "sample_name": "PBAT-gle",
+    "sample_name_norm": "PBAT-GLE",
+    "base_polymer": "PBAT",
+    "polymer_stage": "functionalized",
+    "precursor_sample": "PBAT",
+    "sample_alias": [
+      "PBAT-gle",
+      "PBAT-GLE"
+    ],
+    "table_match_keys": {
+      "entry": "4",
+      "sample": "PBAT-gle"
+    },
+    "scope": "main",
+    "variables": {
+      "crosslinker": "GLE"
+    },
+    "definition_text": "进一步研究了支化单元对PBAT流变行为的影响。鉴于所有样品具有相似的分子量，因此将流变行为的差异归因于链结构的变化是合理的。在 160℃下进行小振幅振荡剪切测试，以分析 PBAT 共聚物中聚合物链的松弛行为。",
+    "evidence_block_id": [
+      "T00440_57df560f",
+      "T00554_07d6cc61",
+      "P00455_a777f7e0",
+      "P00545_9880eadd"
+    ],
+    "merged_from_batches": 4,
+    "sample_quality_reasons": [
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S34",
+    "sample_name": "PBM",
+    "sample_name_norm": "PBM",
+    "base_polymer": "PBM",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "PBM"
+    ],
+    "table_match_keys": {},
+    "scope": "background",
+    "variables": {},
+    "definition_text": "PBM is a base polymer mentioned in the context of polymer synthesis and polyester synthesis.",
+    "evidence_block_id": [
+      "P00147_3e6b88bd",
+      "P00148_879c8c40",
+      "P00149_8b63f5b6",
+      "P00150_a06fcb8c",
+      "P00151_623a71d8",
+      "P00152_0082d6a9",
+      "P00154_2a1e801d",
+      "P00155_653d0453",
+      "P00156_1e379a7a",
+      "P00157_1622def4",
+      "P00161_984f852c",
+      "P00165_b4261faa",
+      "P00167_fa32693d",
+      "P00172_e918c9da",
+      "P00173_b2198964",
+      "P00174_437cc953",
+      "P00179_c2699224",
+      "H00180_e19e83b3",
+      "H00186_e97a4f62",
+      "P00190_4431bd75",
+      "P00193_f682de5d",
+      "P00196_23481d7e",
+      "P00200_2bf93606",
+      "P00204_459e3b5b",
+      "P00207_7a38bbcf",
+      "H00214_cccdf9f2",
+      "P00219_6d82b897",
+      "P00222_649e88d6",
+      "P00225_ad0b771a",
+      "P00228_a2437363",
+      "H00229_6c2682e7",
+      "P00231_0de31ce9",
+      "P00235_b408a50f",
+      "P00241_8abd1c4b",
+      "P00242_e6cf6e7c",
+      "H00246_3205d77a",
+      "P00247_439575ff",
+      "P00248_4191e6e0",
+      "P00252_3e40926d",
+      "P00253_839d4bec",
+      "P00708_fb507f2c",
+      "P00807_e0651973",
+      "P00811_d2abf080",
+      "P00812_815b80a0",
+      "P00813_d02934ea",
+      "P00815_4b4a1cfd",
+      "P00816_0dc2c52b",
+      "P00817_caf1101f",
+      "P00820_cf3bc177",
+      "P00821_2a27ba52",
+      "P00824_7231dba8",
+      "P00826_5a2eeb54",
+      "P00828_1640426e",
+      "P00829_73f9c926",
+      "P00830_feaf4da6",
+      "P00831_f77dfe79",
+      "P00832_bd540270",
+      "P00834_474647d5",
+      "P00835_799919a7",
+      "P00836_f31c7045",
+      "P00837_32c365b5",
+      "P00839_86ced8ac",
+      "P00840_a353d26e",
+      "P00841_107d7898",
+      "P00842_b32b80d7",
+      "P00843_c236454d",
+      "P00844_83fafbf2",
+      "P00845_a7b5cf1e",
+      "P00846_a88312ba",
+      "P00847_e7cd2fcd",
+      "P00848_6fa2b704",
+      "P00849_79487b26",
+      "P00851_e9f4d605",
+      "P00852_e53916c0",
+      "P00854_875b1b3f",
+      "P00855_b0aaf1d3",
+      "P00856_f4fd2cd0",
+      "P00857_f22f0524",
+      "P00858_80a72fd1",
+      "P00859_be2162cd",
+      "P00860_5c418b1d",
+      "P00861_2c67019d",
+      "P00900_d8c48843"
+    ],
+    "merged_from_batches": 6,
+    "sample_quality_reasons": [
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  },
+  {
+    "sample_id": "S35",
+    "sample_name": "UV-0",
+    "sample_name_norm": "UV-0",
+    "base_polymer": "UV-0",
+    "polymer_stage": "precursor",
+    "precursor_sample": null,
+    "sample_alias": [
+      "UV-0"
+    ],
+    "table_match_keys": {
+      "entry": "1"
+    },
+    "scope": "main",
+    "variables": {},
+    "definition_text": "UV-0样品",
+    "evidence_block_id": [
+      "T00638_e5431bec"
+    ],
+    "merged_from_batches": 1,
+    "sample_quality_reasons": [
+      "single_evidence",
+      "specific_variant_name",
+      "scope=main"
+    ],
+    "merged_duplicate_count": 1,
+    "sample_scope_class": "main",
+    "sample_quality_status": "keep"
+  }
+]
