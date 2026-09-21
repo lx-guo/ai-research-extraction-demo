@@ -1,0 +1,157 @@
+{
+  "demo_run_id": "DEMO-RUN-01",
+  "source_document": "Polymer_Paper_01.docx",
+  "source_file_size_bytes": 48798857,
+  "source_note": "匿名化展示名；科学结果来自已完成的真实论文 run。",
+  "pipeline_status": "done",
+  "candidate_sample_count": 36,
+  "formal_sample_count": 31,
+  "final_sample_count": 31,
+  "property_groups": [
+    "composition",
+    "Mn",
+    "Tg",
+    "Hm",
+    "yb",
+    "MI",
+    "old"
+  ],
+  "property_group_count": 7,
+  "property_record_count": 218,
+  "property_record_counts": {
+    "composition": 31,
+    "Mn": 31,
+    "Tg": 31,
+    "Hm": 31,
+    "yb": 32,
+    "MI": 31,
+    "old": 31
+  },
+  "validation_status_counts": {
+    "composition": {
+      "missing": 18,
+      "review": 13
+    },
+    "Mn": {
+      "ok": 24,
+      "review": 7
+    },
+    "Tg": {
+      "ok": 16,
+      "missing": 15
+    },
+    "Hm": {},
+    "yb": {},
+    "MI": {},
+    "old": {}
+  },
+  "final_value_counts": {
+    "composition": 13,
+    "Mn": 31,
+    "Mw": 31,
+    "PDI": 31,
+    "Tc": 16,
+    "Tg": 16,
+    "Tm": 16,
+    "Hm": 1,
+    "tensile_strength": 15,
+    "yield_strength": 7,
+    "elongation_at_break": 15,
+    "yb": 15,
+    "relaxation_time": 3,
+    "rheology": 3,
+    "aging_rate": 31,
+    "old": 31
+  },
+  "block_count": 919,
+  "evidence_block_count": 109,
+  "unique_evidence_id_count": 109,
+  "evidence_resolution_count": 109,
+  "unresolved_evidence_ids": [],
+  "retrieval_mode": "property_level",
+  "retrieval_property_count": 7,
+  "retrieval_saved_blocks_per_property": {
+    "composition": 50,
+    "Mn": 50,
+    "Tg": 50,
+    "Hm": 50,
+    "yb": 50,
+    "MI": 50,
+    "old": 50
+  },
+  "stage07_api_call_count": 21,
+  "stage07_duration_seconds": 2785.465,
+  "run_window_seconds": 4448.0,
+  "stages": [
+    {
+      "stage": "stage01_blocks",
+      "status": "done",
+      "started_at": "2026-05-07T13:15:48+08:00",
+      "finished_at": "2026-05-07T13:15:49+08:00",
+      "duration_seconds": 1.0
+    },
+    {
+      "stage": "stage02_keep",
+      "status": "done",
+      "started_at": "2026-05-07T13:15:49+08:00",
+      "finished_at": "2026-05-07T13:26:45+08:00",
+      "duration_seconds": 656.0
+    },
+    {
+      "stage": "stage03_sample_pack",
+      "status": "done",
+      "started_at": "2026-05-07T13:26:45+08:00",
+      "finished_at": "2026-05-07T13:26:45+08:00",
+      "duration_seconds": 0.0
+    },
+    {
+      "stage": "stage04_sample_discovery",
+      "status": "done",
+      "started_at": "2026-05-07T13:26:45+08:00",
+      "finished_at": "2026-05-07T13:32:23+08:00",
+      "duration_seconds": 338.0
+    },
+    {
+      "stage": "stage05_searchtext",
+      "status": "done",
+      "started_at": "2026-05-07T13:32:23+08:00",
+      "finished_at": "2026-05-07T13:32:23+08:00",
+      "duration_seconds": 0.0
+    },
+    {
+      "stage": "stage06_retrieval",
+      "status": "done",
+      "started_at": "2026-05-07T13:32:23+08:00",
+      "finished_at": "2026-05-07T13:33:48+08:00",
+      "duration_seconds": 85.0
+    },
+    {
+      "stage": "stage07_extract_properties",
+      "status": "done",
+      "started_at": "2026-05-07T13:33:48+08:00",
+      "finished_at": "2026-05-07T14:20:13+08:00",
+      "duration_seconds": 2785.0
+    },
+    {
+      "stage": "stage08_finalize",
+      "status": "done",
+      "started_at": "2026-05-07T14:29:56+08:00",
+      "finished_at": "2026-05-07T14:29:56+08:00",
+      "duration_seconds": 0.0
+    }
+  ],
+  "evidence_granularity": {
+    "block_id": true,
+    "block_type": true,
+    "heading_path": true,
+    "doc_pos": true,
+    "source_span": [
+      "para_index",
+      "para_index_caption",
+      "table_index"
+    ],
+    "original_block_content": true,
+    "page_number": false,
+    "universal_confidence": false
+  }
+}
