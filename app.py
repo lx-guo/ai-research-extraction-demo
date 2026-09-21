@@ -69,7 +69,7 @@ PAGES = {
     "pipeline": "02  处理流程",
     "samples": "03  样品识别",
     "results": "04  抽取结果",
-    "evidence": "05  Evidence",
+    "evidence": "05  证据追溯",
     "export": "06  最终导出",
 }
 
@@ -143,7 +143,7 @@ def metric_card(label: str, value: str, note: str = "") -> None:
 
 
 def page_header(title: str, subtitle: str) -> None:
-    st.markdown('<div class="product-kicker">AI RESEARCH OPS · EVIDENCE FIRST</div>', unsafe_allow_html=True)
+    st.markdown('<div class="product-kicker">AI 科研抽取 · 证据优先</div>', unsafe_allow_html=True)
     st.title(title)
     st.markdown(f'<div class="subtitle">{html.escape(subtitle)}</div>', unsafe_allow_html=True)
 
@@ -154,7 +154,7 @@ def topbar(meta: dict[str, Any]) -> None:
         f'<div class="paper-meta">缓存任务 DEMO-RUN-01 · {meta["final_sample_count"]} 个正式样品 · '
         f'{meta["property_group_count"]} 个性质组</div></div>'
         '<div><span class="badge badge-green">真实缓存结果</span> &nbsp; '
-        '<span class="badge">DEMO MODE</span></div></div>',
+        '<span class="badge">演示模式</span></div></div>',
         unsafe_allow_html=True,
     )
 
@@ -266,7 +266,7 @@ def render_pipeline(data: dict[str, Any]) -> None:
     with a:
         metric_card("处理状态", "8 / 8", "全部 stage 完成")
     with b:
-        metric_card("检索模式", "Property-level", "每个性质 50 个候选 block")
+        metric_card("检索模式", "按性质检索", "每个性质 50 个候选 block")
     with c:
         metric_card("性质抽取调用", str(data["meta"]["stage07_api_call_count"]), "缓存 run 实际记录")
     with d:
@@ -323,7 +323,7 @@ def render_samples(data: dict[str, Any]) -> None:
         st.markdown("**样品发现 Evidence ID**")
         st.code(" · ".join(sample.get("evidence_block_id") or []) or "无", language=None)
         st.markdown(
-            '<div class="prototype"><b>评审动作 · Prototype Interaction</b><br>'
+            '<div class="prototype"><b>评审动作 · 原型交互</b><br>'
             '<span style="color:#667085;font-size:.82rem">确认 / 删除 / 合并仅为交互原型，不写回现有后端。</span></div>',
             unsafe_allow_html=True,
         )
@@ -347,7 +347,7 @@ def render_results(data: dict[str, Any]) -> None:
     with c2:
         st.info("16 个样品具有通过校验的 Tg / Tm / Tc；其余 15 个标记为未抽取到。")
     with c3:
-        st.warning("Bad Case：Hm 组存在字段错配现象，Demo 保留原结果并明确提示人工复核。")
+        st.warning("问题案例：Hm 组存在字段错配现象，演示界面保留原结果并明确提示人工复核。")
     with st.expander("查看技术结果 · properties_raw"):
         st.json(result.get("properties_raw") or {})
 
@@ -397,7 +397,7 @@ def render_block(block: dict[str, Any]) -> None:
 
 
 def render_evidence(data: dict[str, Any]) -> None:
-    page_header("Evidence Trace", "从 AI 输出回到 Evidence block，再查看论文中的真实原始内容。")
+    page_header("证据追溯", "从 AI 输出回到证据块，再查看论文中的真实原始内容。")
     topbar(data["meta"])
     left, right = st.columns([1.05, 1], gap="large")
     with left:
@@ -430,7 +430,7 @@ def render_evidence(data: dict[str, Any]) -> None:
     with c2:
         ids_text = "<br>".join(html.escape(item) for item in evidence_ids[:3]) or "未记录 Evidence ID"
         st.markdown(
-            f'<div class="trace-card"><div class="trace-label">Evidence block</div>'
+            f'<div class="trace-card"><div class="trace-label">证据块</div>'
             f'<div class="trace-main" style="font-size:.82rem">{ids_text}</div>'
             f'<div class="metric-note">共 {len(evidence_ids)} 个唯一 ID</div></div>',
             unsafe_allow_html=True,
@@ -451,7 +451,7 @@ def render_evidence(data: dict[str, Any]) -> None:
         st.warning("该属性记录没有可解析的 Evidence block ID。")
     else:
         labels = [f'{block.get("block_id")} · {block.get("type")}' for block in blocks]
-        chosen_label = st.selectbox("查看原始 Evidence", labels)
+        chosen_label = st.selectbox("查看原始证据", labels)
         render_block(blocks[labels.index(chosen_label)])
     with st.expander("查看属性技术结果"):
         st.json(record)
@@ -510,7 +510,7 @@ def render_export(data: dict[str, Any]) -> None:
 def main() -> None:
     data = load_demo()
     st.sidebar.markdown("## AI 科研文献智能抽取助手")
-    st.sidebar.caption("Evidence-first extraction workspace")
+    st.sidebar.caption("证据优先的科研抽取工作台")
     requested_page = query_value("page", "task")
     if requested_page not in PAGES:
         requested_page = "task"
@@ -521,8 +521,8 @@ def main() -> None:
         st.query_params["page"] = page
         st.rerun()
     st.sidebar.divider()
-    st.sidebar.success("DEMO MODE · 缓存数据已就绪\n\n无需 API Key · 无需等待")
-    st.sidebar.caption("公开包仅含匿名化展示层\n\n不包含科研 Pipeline")
+    st.sidebar.success("演示模式 · 缓存数据已就绪\n\n无需 API Key · 无需等待")
+    st.sidebar.caption("公开包仅含匿名化展示层\n\n不包含科研主流程")
 
     renderers = {
         "task": lambda: render_task(data),
